@@ -1,0 +1,145 @@
+#intro {
+    width: 100%;
+
+    .container {
+        background-image: url("../../assets/images/intro_background_image.jpg");
+        background-repeat: no-repeat;
+    }
+
+    & .wrapper {
+
+        padding: 180px 0;
+
+        &__left {
+            margin-left: 0;
+
+            & h1 {
+                width: 510px;
+                height: 160px;
+                font-size: 58px;
+                font-weight: 800;
+                line-height: 80px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                color: #252B42;
+            }
+
+            & p {
+                width: 380px;
+                height: 60px;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                color: #737373;
+                margin-top: 35px;
+            }
+
+            &-buttons {
+
+                margin-top: 35px;
+
+                & button:first-child {
+                    width: 187px;
+                    height: 48px;
+                    border-radius: 37px;
+                    padding: 10px 36px;
+                    border: 1px solid #FFA62B;
+                    background-color: #FFA62B;
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    text-align: center;
+                    cursor: pointer;
+                    transition: all 0.4s ease-in-out;
+
+                    &:hover {
+                        background-color: transparent;
+                        color: #FFA62B;
+                    }
+                }
+
+                
+
+                & button:last-child {
+                    background-color: transparent;
+                    border: 1px solid #00A0C1;
+                    color: #00A0C1;
+                    border-radius: 37px;
+                    padding: 10px 36px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    text-align: center;
+                    margin-left: 10px;
+                    transition: all 0.4s ease-in-out;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #00A0C1;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        &__cards {
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+
+            &-card {
+                width: 330px;
+                height: 210px;
+                padding: 35px 40px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                background-color: #fff;
+                margin-right: 30px;
+                cursor: pointer;
+                transition: all 0.5s ease-in-out;
+
+                & h2 {
+                    width: 300px;
+                    height: 32px;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    letter-spacing: 0.10000000149011612px;
+                    text-align: left;
+                    color: #252B42;
+                    margin-top: 10px;
+                }
+
+                & p {
+                    height: 40px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: left;
+                    color: #737373;
+                    margin-top: 10px;
+                }
+
+                &:hover {
+                    transform: scale(1.04);
+                }
+
+                &:last-child {
+                    background-color: #00A0C1;
+
+                    & h2 {
+                        color: #fff;
+                    }
+
+                    p {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

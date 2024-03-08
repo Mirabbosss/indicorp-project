@@ -1,0 +1,107 @@
+#get_in_touch {
+    width: 100%;
+
+    .wrapper {
+        &__title {
+            h1 {
+                height: 57px;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 57px;
+                text-align: center;
+                color: #252B42;
+            }
+
+            p {
+                height: 40px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: center;
+                color: #737373;
+                margin-top: 10px;
+            }
+        }
+
+        &__cards {
+            display: flex;
+            margin: 80px auto;
+            justify-content: space-around;
+            align-items: center;
+            width: 1000px;
+            height: 400px;
+
+            &--card {
+                background-color: #ffffff;
+                width: 320px;
+                height: 345px;
+                gap: 10px;
+                transition: all 0.7s ease;
+                box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+                img {
+                    margin: 50px 128px;
+                }
+
+                &:hover {
+                    height: 390px;
+                    background-color: #252B42;
+
+                    p {
+                        color: #ffffff;
+                    }
+
+                    h5 {
+                        color: #ffffff;
+                    }
+
+                    button {
+                        border: 1px solid #ffffff;
+                        color: #ffffff;
+                    }
+                }
+
+                p {
+                    height: 24px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    color: #252B42;
+
+                }
+
+                h5 {
+                    height: 24px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0.10000000149011612px;
+                    text-align: center;
+                    color: #252B42;
+                    margin-top: 15px;
+                }
+
+                button {
+                    width: 160px;
+                    height: 44px;
+                    border: 1px solid #FFA62B;
+                    color: #FFA62B;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+                    background: transparent;
+                    margin: 15px 84px;
+                    cursor: pointer;
+                    margin: 15px 84px 50px 84px;
+
+                    &:hover {
+                        background: #ffffff;
+                        color: #252B42;
+                    }
+                }
+            }
+        }
+    }
+}

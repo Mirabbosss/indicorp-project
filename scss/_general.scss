@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #FAFAFA;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 100px;
+    max-width: 1440px;
+}
